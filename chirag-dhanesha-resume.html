@@ -1,0 +1,1096 @@
+<!DOCTYPE html>
+<!-- saved from url=(0071)file:///Users/chirag/Downloads/deepseek_html_20250816_1296bc%20(1).html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chirag Dhanesha | Digital Marketing Leader</title>
+    <link rel="stylesheet" href="./chirag-dhanesha-resume_files/all.min.css">
+    <style>
+        :root {
+            --primary: #00f0ff;
+            --primary-dark: #0066ff;
+            --secondary: #ff00f0;
+            --dark: #0a0a14;
+            --light: #f0f0ff;
+            --gray: #a0a0c0;
+            --success: #00ff88;
+            --glow: 0 0 15px;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Orbitron', 'Segoe UI', sans-serif;
+        }
+        
+        @font-face {
+            font-family: 'Orbitron';
+            src: url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap');
+        }
+        
+        body {
+            background-color: var(--dark);
+            color: var(--light);
+            line-height: 1.6;
+            overflow-x: hidden;
+            background-image: 
+                radial-gradient(circle at 25% 25%, rgba(0, 240, 255, 0.05) 0%, transparent 50%),
+                radial-gradient(circle at 75% 75%, rgba(255, 0, 240, 0.05) 0%, transparent 50%);
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        
+        /* Futuristic Elements */
+        .cyber-border {
+            position: relative;
+            border: 1px solid var(--primary);
+            box-shadow: 
+                var(--glow) var(--primary),
+                inset var(--glow) var(--primary);
+            border-radius: 5px;
+        }
+        
+        .cyber-border::before {
+            content: '';
+            position: absolute;
+            top: -5px;
+            left: -5px;
+            right: -5px;
+            bottom: -5px;
+            border: 1px solid var(--secondary);
+            border-radius: 8px;
+            z-index: -1;
+            opacity: 0.7;
+            animation: borderPulse 4s infinite alternate;
+        }
+        
+        .cyber-card {
+            background: rgba(10, 10, 20, 0.7);
+            backdrop-filter: blur(10px);
+            border-radius: 8px;
+            transition: all 0.3s ease;
+            overflow: hidden;
+            position: relative;
+        }
+        
+        .cyber-card::after {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 3px;
+            background: linear-gradient(90deg, var(--primary), var(--secondary));
+        }
+        
+        .cyber-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 
+                0 10px 20px rgba(0, 0, 0, 0.3),
+                var(--glow) var(--primary);
+        }
+        
+        .holographic {
+            background: linear-gradient(135deg, 
+                rgba(0, 240, 255, 0.1) 0%, 
+                rgba(255, 0, 240, 0.1) 50%, 
+                rgba(0, 240, 255, 0.1) 100%);
+            position: relative;
+        }
+        
+        .holographic::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(45deg, 
+                transparent 48%, 
+                rgba(0, 240, 255, 0.1) 50%, 
+                transparent 52%);
+            background-size: 5px 5px;
+            opacity: 0.3;
+        }
+        
+        /* Animations */
+        @keyframes borderPulse {
+            0% { opacity: 0.3; }
+            100% { opacity: 0.7; }
+        }
+        
+        @keyframes float {
+            0% { transform: translateY(0px); }
+            50% { transform: translateY(-10px); }
+            100% { transform: translateY(0px); }
+        }
+        
+        @keyframes scanline {
+            0% { top: -10%; }
+            100% { top: 110%; }
+        }
+        
+        .scanlines {
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .scanlines::after {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(
+                to bottom,
+                transparent 0%,
+                rgba(0, 240, 255, 0.05) 50%,
+                transparent 100%
+            );
+            background-size: 100% 4px;
+            animation: scanline 8s linear infinite;
+            pointer-events: none;
+        }
+        
+        /* Header Styles */
+        header {
+            padding: 3rem 0;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .header-grid {
+            display: grid;
+            grid-template-columns: 1fr 2fr;
+            gap: 2rem;
+            align-items: center;
+        }
+        
+        .profile-hologram {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 3px solid var(--primary);
+            box-shadow: 
+                0 0 20px var(--primary),
+                inset 0 0 20px var(--primary);
+            position: relative;
+            animation: float 6s ease-in-out infinite;
+            filter: hue-rotate(0deg);
+            transition: filter 0.5s ease;
+        }
+        
+        .profile-hologram:hover {
+            filter: hue-rotate(90deg);
+        }
+        
+        .header-text h1 {
+            font-size: 3rem;
+            margin-bottom: 0.5rem;
+            font-weight: 700;
+            background: linear-gradient(90deg, var(--primary), var(--secondary));
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+            text-shadow: 0 0 10px rgba(0, 240, 255, 0.3);
+        }
+        
+        .header-text p {
+            font-size: 1.2rem;
+            opacity: 0.9;
+            margin-bottom: 1rem;
+            color: var(--gray);
+        }
+        
+        .tagline {
+            display: inline-block;
+            padding: 0.5rem 1rem;
+            background: rgba(0, 240, 255, 0.1);
+            border-left: 3px solid var(--primary);
+            margin-bottom: 1rem;
+            font-size: 1.1rem;
+        }
+        
+        .contact-info {
+            display: flex;
+            gap: 1.5rem;
+            flex-wrap: wrap;
+            margin-top: 1.5rem;
+        }
+        
+        .contact-item {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            color: var(--light);
+            text-decoration: none;
+            transition: all 0.3s ease;
+        }
+        
+        .contact-item i {
+            color: var(--primary);
+            font-size: 1.2rem;
+        }
+        
+        .contact-item:hover {
+            color: var(--primary);
+            text-shadow: 0 0 10px var(--primary);
+        }
+        
+        /* Main Content */
+        main {
+            padding: 2rem 0;
+        }
+        
+        section {
+            margin-bottom: 3rem;
+        }
+        
+        .section-title {
+            font-size: 1.8rem;
+            margin-bottom: 1.5rem;
+            color: var(--primary);
+            position: relative;
+            display: inline-block;
+            padding-bottom: 0.5rem;
+        }
+        
+        .section-title::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height: 2px;
+            background: linear-gradient(90deg, var(--primary), var(--secondary));
+            border-radius: 2px;
+        }
+        
+        /* About Section */
+        .about-content {
+            padding: 2rem;
+            line-height: 1.8;
+        }
+        
+        /* Skills Section */
+        .skills-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 1.5rem;
+        }
+        
+        .skill-item {
+            padding: 1.5rem;
+            position: relative;
+        }
+        
+        .skill-name {
+            display: flex;
+            align-items: center;
+            gap: 0.8rem;
+            margin-bottom: 0.8rem;
+            font-size: 1.1rem;
+        }
+        
+        .skill-name i {
+            color: var(--primary);
+            font-size: 1.3rem;
+        }
+        
+        .skill-bar {
+            height: 4px;
+            background: rgba(0, 240, 255, 0.2);
+            border-radius: 2px;
+            margin-top: 0.5rem;
+            overflow: hidden;
+        }
+        
+        .skill-progress {
+            height: 100%;
+            background: linear-gradient(90deg, var(--primary), var(--secondary));
+            border-radius: 2px;
+            position: relative;
+        }
+        
+        .skill-progress::after {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: linear-gradient(90deg, 
+                transparent, 
+                rgba(255, 255, 255, 0.5), 
+                transparent);
+            animation: progressGlow 2s infinite;
+        }
+        
+        .skill-description {
+            margin-top: 1rem;
+            font-size: 0.95rem;
+            line-height: 1.6;
+        }
+        
+        .skill-highlight {
+            display: block;
+            margin-top: 0.5rem;
+            padding-left: 1.5rem;
+            position: relative;
+        }
+        
+        .skill-highlight::before {
+            content: '▹';
+            position: absolute;
+            left: 0;
+            color: var(--secondary);
+        }
+        
+        @keyframes progressGlow {
+            0% { transform: translateX(-100%); }
+            100% { transform: translateX(100%); }
+        }
+        
+        /* Experience Section */
+        .experience-timeline {
+            position: relative;
+            padding-left: 50px;
+        }
+        
+        .experience-timeline::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 20px;
+            height: 100%;
+            width: 2px;
+            background: linear-gradient(to bottom, var(--primary), var(--secondary));
+        }
+        
+        .timeline-item {
+            position: relative;
+            margin-bottom: 2rem;
+            padding: 1.5rem;
+        }
+        
+        .timeline-item::before {
+            content: '';
+            position: absolute;
+            top: 24px;
+            left: -40px;
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            background: var(--primary);
+            border: 4px solid var(--dark);
+            box-shadow: 0 0 10px var(--primary);
+        }
+        
+        .timeline-title {
+            font-size: 1.3rem;
+            color: var(--primary);
+            margin-bottom: 0.3rem;
+        }
+        
+        .timeline-company {
+            font-weight: 600;
+            color: var(--light);
+            margin-bottom: 0.5rem;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+        
+        .timeline-company i {
+            color: var(--secondary);
+            font-size: 0.9rem;
+        }
+        
+        .timeline-description {
+            line-height: 1.8;
+        }
+        
+        .timeline-highlight {
+            display: block;
+            margin-top: 0.8rem;
+            position: relative;
+            padding-left: 1.5rem;
+        }
+        
+        .timeline-highlight::before {
+            content: '▹';
+            position: absolute;
+            left: 0;
+            color: var(--secondary);
+        }
+        
+        /* Achievements Section */
+        .achievements-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 1.5rem;
+        }
+        
+        .achievement-card {
+            padding: 1.5rem;
+            position: relative;
+        }
+        
+        .achievement-card h3 {
+            color: var(--primary);
+            margin-bottom: 0.8rem;
+            display: flex;
+            align-items: center;
+            gap: 0.8rem;
+        }
+        
+        .achievement-card h3 i {
+            color: var(--secondary);
+        }
+        
+        .achievement-value {
+            font-size: 2rem;
+            font-weight: 700;
+            background: linear-gradient(90deg, var(--primary), var(--secondary));
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+            margin-bottom: 0.5rem;
+        }
+        
+        /* Education Section */
+        .education-item {
+            padding: 1.5rem;
+            position: relative;
+        }
+        
+        /* Tools Section */
+        .tools-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 1rem;
+        }
+        
+        .tool-item {
+            display: flex;
+            align-items: center;
+            gap: 0.8rem;
+            padding: 1rem;
+            transition: all 0.3s ease;
+        }
+        
+        .tool-item:hover {
+            background: rgba(0, 240, 255, 0.1);
+        }
+        
+        .tool-icon {
+            width: 40px;
+            height: 40px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: rgba(0, 240, 255, 0.1);
+            border-radius: 8px;
+            color: var(--primary);
+            font-size: 1.2rem;
+        }
+        
+        /* Certifications Section */
+        .certifications-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 1.5rem;
+        }
+        
+        /* Footer */
+        footer {
+            padding: 3rem 0;
+            text-align: center;
+            position: relative;
+        }
+        
+        footer::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 80%;
+            height: 1px;
+            background: linear-gradient(90deg, transparent, var(--primary), transparent);
+        }
+        
+        .social-links {
+            display: flex;
+            justify-content: center;
+            gap: 1.5rem;
+            margin-bottom: 1.5rem;
+        }
+        
+        .social-links a {
+            color: var(--gray);
+            font-size: 1.5rem;
+            transition: all 0.3s ease;
+            width: 50px;
+            height: 50px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 50%;
+            border: 1px solid rgba(0, 240, 255, 0.3);
+        }
+        
+        .social-links a:hover {
+            color: var(--primary);
+            border-color: var(--primary);
+            box-shadow: 0 0 15px var(--primary);
+            transform: translateY(-3px);
+        }
+        
+        .copyright {
+            color: var(--gray);
+            font-size: 0.9rem;
+        }
+        
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .header-grid {
+                grid-template-columns: 1fr;
+                text-align: center;
+            }
+            
+            .profile-hologram {
+                margin: 0 auto;
+            }
+            
+            .contact-info {
+                justify-content: center;
+            }
+            
+            .skills-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .experience-timeline {
+                padding-left: 30px;
+            }
+            
+            .timeline-item::before {
+                left: -30px;
+            }
+        }
+        
+        /* Matrix Rain Effect */
+        .matrix-rain {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+            opacity: 0.05;
+            pointer-events: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="matrix-rain" id="matrixRain"><canvas width="485" style="display: block;" height="629"></canvas></div>
+    
+    <header class="scanlines">
+        <div class="container">
+            <div class="header-grid">
+                <div>
+                    <img src="./chirag-dhanesha-resume_files/saved_resource" alt="Chirag Dhanesha" class="profile-hologram">
+                </div>
+                <div class="header-text">
+                    <h1>CHIRAG DHANESHA</h1>
+                    <div class="tagline cyber-border">AI Meets SEO, Digital Marketing &amp; Product Management</div>
+                    <p>Digital Product Manager | SEO &amp; Content Strategist | Digital Marketing Expert</p>
+                    <div class="contact-info">
+                        <a href="tel:+919426138950" class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <span>+91-9426138950</span>
+                        </a>
+                        <a href="https://www.linkedin.com/in/chirag-dhanesha-956b52118" class="contact-item">
+                            <i class="fab fa-linkedin"></i>
+                            <span>LinkedIn</span>
+                        </a>
+                        <a href="mailto:dhaneshachirag84@gmail.com" class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <span>Email</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    
+    <main class="container scanlines">
+        <!-- About Section -->
+        <section id="about">
+            <h2 class="section-title">About Me</h2>
+            <div class="cyber-card cyber-border holographic">
+                <div class="about-content">
+                    <p>Results-driven Digital Marketing &amp; Product Management Leader with 6+ years of experience driving growth for IT, B2B SaaS, healthcare tech brands. Proven track record in SEO strategy, product-led growth marketing, lead generation, and AI-powered campaigns. Successfully launched 50+ products, scaled organic traffic from 30K to 1M+, achieved 500K+ app installs and led teams to execute multi-platform digital campaigns. Passionate about data-backed marketing, conversion optimization, and meaningful brand storytelling.</p>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Skills Section -->
+        <section id="skills">
+            <h2 class="section-title">Skills &amp; Area Of Expertise</h2>
+            <div class="skills-grid">
+                <div class="cyber-card cyber-border">
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            <i class="fas fa-bullseye"></i>
+                            <span>Digital Marketing</span>
+                        </div>
+                        <p>Comprehensive strategies to drive growth and maximize ROI across digital channels.</p>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 95%"></div>
+                        </div>
+                        <div class="skill-description">
+                            <span class="skill-highlight">SEO, SEM &amp; PPC</span>
+                            <span class="skill-highlight">Social Media Marketing</span>
+                            <span class="skill-highlight">Email Marketing &amp; Analytics </span>
+                            <span class="skill-highlight">Content Stratergy &amp; Lead</span>
+                            <span class="skill-highlight">Budget Allocation &amp; Optimization</span>
+                        </div>
+                    </div>
+                </div>
+                
+
+                <div class="cyber-card cyber-border">
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            <i class="fas fa-search-plus"></i>
+                            <span>SEO Management</span>
+                        </div>
+                        <p>Comprehensive SEO strategies including technical SEO,ASO,website speed optimization &amp; link building.</p>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 96%"></div>
+                        </div>
+                        <div class="skill-description">
+                            <span class="skill-highlight">On-Page, Off-Page &amp; SEO</span>
+                            <span class="skill-highlight">AEO, GEO &amp; Voice SEO</span>
+                            <span class="skill-highlight">Programatic SEO</span>
+                            <span class="skill-highlight">Keyword Research &amp; Backlinks</span>
+                            <span class="skill-highlight">Local SEO &amp; Schema Markup</span>
+                            <span class="skill-highlight">Core Web Vitals &amp; Speed</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="cyber-card cyber-border">
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            <i class="fas fa-project-diagram"></i>
+                            <span>Product Management</span>
+                        </div>
+                        <p>End-to-end product lifecycle management from ideation to launch and optimization.</p>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 90%"></div>
+                        </div>
+                        <div class="skill-description">
+                            <span class="skill-highlight">Agile Sprint Planning</span>
+                            <span class="skill-highlight">B2B SaaS Development</span>
+                            <span class="skill-highlight">Market Data Analysis</span>
+                            <span class="skill-highlight">GTM Stategies &amp; Prototyping</span>
+                            <span class="skill-highlight">Stakeholder &amp; Team Management</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="cyber-card cyber-border">
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            <i class="fas fa-chart-line"></i>
+                            <span>Growth Hacking</span>
+                        </div>
+                        <p>Innovative techniques to rapidly scale user acquisition and retention.</p>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 92%"></div>
+                        </div>
+                        <div class="skill-description">
+                            <span class="skill-highlight">Data Driven Growth OKRs</span>
+                            <span class="skill-highlight">ROI &amp; ROAS Tracking</span>
+                            <span class="skill-highlight">Traffic Growth &amp; CRO</span>
+                            <span class="skill-highlight">A/B Testing Frameworks</span>
+                            <span class="skill-highlight">Referral Program Design</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="cyber-card cyber-border">
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            <i class="fas fa-align-left"></i>
+                            <span>Content Strategy</span>
+                        </div>
+                        <p>Data-driven content planning, creation, and optimization for maximum engagement.</p>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 94%"></div>
+                        </div>
+                        <div class="skill-description">
+                            <span class="skill-highlight">Content Creation &amp; Planning</span>
+                            <span class="skill-highlight">Content Gap Analysis &amp; Analytics</span>
+                            <span class="skill-highlight">Editorial Calendar Management</span>
+                            <span class="skill-highlight">Conversion-focused Disribution</span>
+                            <span class="skill-highlight">AI-assisted Content Optimization</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="cyber-card cyber-border">
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            <i class="fas fa-robot"></i>
+                            <span>AI in Marketing</span>
+                        </div>
+                        <p>Leveraging AI tools for keyword research, content creation, SEO optimization, and campaign automation.</p>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 91%"></div>
+                        </div>
+                        <div class="skill-description">
+                            <span class="skill-highlight">Prompt Engineering</span>
+                            <span class="skill-highlight">Content Automation Workflows</span>
+                            <span class="skill-highlight">Predictive Analytics</span>
+                            <span class="skill-highlight">Content Automation Workflows</span>
+                            <span class="skill-highlight">AI in Growth Forecasting</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Experience Section -->
+        <section id="experience">
+            <h2 class="section-title">Professional Experience</h2>
+            <div class="experience-timeline">
+                <div class="cyber-card cyber-border">
+                    <div class="timeline-item">
+                        <div class="timeline-title">Digital Product Manager</div>
+                        <div class="timeline-company">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>May 2023 - Present | Drlogy, Rajkot [Promoted]</span>
+                        </div>
+                        <div class="timeline-description">
+                            <span class="timeline-highlight">Launched 50+ healthcare product pages, boosting leads and traffic through strategic positioning and conversion optimization.</span>
+                            <span class="timeline-highlight">Onboarded 30K+ doctors &amp; 25K+ hospitals via innovative listing strategy that improved platform credibility and user engagement.</span>
+                            <span class="timeline-highlight">Mentored 6-member cross-functional team, establishing OKRs that increased quarterly deliverables by 40%.</span>
+                            <span class="timeline-highlight">Collaborated with stakeholders to align product roadmap with emerging market needs and technological capabilities.</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="cyber-card cyber-border">
+                    <div class="timeline-item">
+                        <div class="timeline-title">Digital Marketing Manager</div>
+                        <div class="timeline-company">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>May 2022 - May 2023 | Drlogy, Rajkot</span>
+                        </div>
+                        <div class="timeline-description">
+                            <span class="timeline-highlight">Drove 3200% SEO growth, scaling organic traffic from 30K to 1 million monthly through comprehensive technical &amp; content SEO strategies.</span>
+                            <span class="timeline-highlight">Increased user engagement by 50% by implementing data-driven content marketing strategies and personalized user journeys.</span>
+                            <span class="timeline-highlight">Pioneered AI-driven tools for content automation and keyword clustering, reducing content production time by 60%.</span>
+                            <span class="timeline-highlight">Led a 12-member creative team of writers, designers, and outreach specialists to execute multi-channel campaigns.</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="cyber-card cyber-border">
+                    <div class="timeline-item">
+                        <div class="timeline-title">SEO Manager</div>
+                        <div class="timeline-company">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Jun 2020 - Apr 2022 | Meteoric Technologies, Ahmedabad [Promoted]</span>
+                        </div>
+                        <div class="timeline-description">
+                            <span class="timeline-highlight">Led high-performance 5-member SEO team that improved qualified leads by 60% through strategic optimization.</span>
+                            <span class="timeline-highlight">Developed scalable backlink and content strategies for global clients across healthcare, SaaS, and eCommerce sectors.</span>
+                            <span class="timeline-highlight">Collaborated with product and development teams to implement SEO-friendly architectures that improved crawlability by 75%.</span>
+                            <span class="timeline-highlight">Facilitated strategic partnerships that expanded client base by 35% within first year.</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="cyber-card cyber-border">
+                    <div class="timeline-item">
+                        <div class="timeline-title">SEO Executive</div>
+                        <div class="timeline-company">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Jun 2019 - Jun 2020 | Meteoric Technologies, Ahmedabad</span>
+                        </div>
+                        <div class="timeline-description">
+                            <span class="timeline-highlight">Delivered 500K+ app installs via comprehensive ASO strategy on Google Play Store, including keyword optimization &amp; growth.</span>
+                            <span class="timeline-highlight">Conducted technical site audits identifying 120+ optimization opportunities that improved overall search visibility.</span>
+                            <span class="timeline-highlight">Boosted B2B leads by 45% through targeted local SEO campaigns and geo-specific content strategies.</span>
+                            <span class="timeline-highlight">Performed competitive analysis that informed content growth strategy, resulting in 30% increase in top-ranking pages.</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Achievements Section -->
+        <section id="achievements">
+            <h2 class="section-title">Key Milestones</h2>
+            <div class="achievements-grid">
+                <div class="cyber-card cyber-border holographic">
+                    <div class="achievement-card">
+                        <div class="achievement-value">1M+</div>
+                        <h3><i class="fas fa-search"></i> Monthly Clicks</h3>
+                        <p>Achieved on Google Search Console for Drlogy platform through comprehensive SEO optimization strategy.</p>
+                    </div>
+                </div>
+
+                <div class="cyber-card cyber-border holographic">
+                    <div class="achievement-card">
+                        <div class="achievement-value">500K+</div>
+                        <h3><i class="fas fa-download"></i> App Downloads</h3>
+                        <p>Drove through optimized Play Store presence including ASO, keyword strategy, and conversion-focused visuals.</p>
+                    </div>
+                </div>
+                
+                <div class="cyber-card cyber-border holographic">
+                    <div class="achievement-card">
+                        <div class="achievement-value">50+</div>
+                        <h3><i class="fas fa-rocket"></i> SaaS Product Launches</h3>
+                        <p>Successful medical SaaS product pages developed using agile methodologies and managed to grow them.</p>
+                    </div>
+                </div>
+                
+                <div class="cyber-card cyber-border holographic">
+                    <div class="achievement-card">
+                        <div class="achievement-value">2M+</div>
+                        <h3><i class="fas fa-eye"></i> Monthly Views</h3>
+                        <p>Generated on Drlogy's Pinterest account through strategic visual content and community engagement.</p>
+                    </div>
+                </div>
+                
+                <div class="cyber-card cyber-border holographic">
+                    <div class="achievement-card">
+                        <div class="achievement-value">5K+</div>
+                        <h3><i class="fas fa-newspaper"></i> Articles Published</h3>
+                        <p>Managed end-to-end production with scalable content framework that boosted lead conversion.</p>
+                    </div>
+                </div>
+                
+                <div class="cyber-card cyber-border holographic">
+                    <div class="achievement-card">
+                        <div class="achievement-value">12K+</div>
+                        <h3><i class="fas fa-users"></i> B2B Leads</h3>
+                        <p>Generated through integrated content marketing and SEO strategies with 20%+ conversion rate.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Tools Section -->
+        <section id="tools">
+            <h2 class="section-title">Tools &amp; Tech Stack</h2>
+            <div class="tools-grid">
+                <div class="cyber-card cyber-border">
+                    <div class="tool-item">
+                        <div class="tool-icon">
+                            <i class="fas fa-search"></i>
+                        </div>
+                        <div>
+                            <h4>SEO Tools</h4>
+                            <p>Ahrefs, Semrush, Moz, Screaming Frog, Uber Suggest, Keyword Planner</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="cyber-card cyber-border">
+                    <div class="tool-item">
+                        <div class="tool-icon">
+                            <i class="fas fa-tasks"></i>
+                        </div>
+                        <div>
+                            <h4>Project Management</h4>
+                            <p>Trello, Jira, Asana, CMS Platforms</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="cyber-card cyber-border">
+                    <div class="tool-item">
+                        <div class="tool-icon">
+                            <i class="fas fa-robot"></i>
+                        </div>
+                        <div>
+                            <h4>AI &amp; Productivity</h4>
+                            <p>ChatGPT, Perplexity, Deepseek, Gemini, Jasper AI, Google Veo3</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="cyber-card cyber-border">
+                    <div class="tool-item">
+                        <div class="tool-icon">
+                            <i class="fas fa-code"></i>
+                        </div>
+                        <div>
+                            <h4>Development</h4>
+                            <p>HTML, CSS, JavaScript, Java, JSON-LD, XML, Python</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="cyber-card cyber-border">
+                    <div class="tool-item">
+                        <div class="tool-icon">
+                            <i class="fas fa-chart-bar"></i>
+                        </div>
+                        <div>
+                            <h4>Analytics</h4>
+                            <p>Google Analytics, Search Console, Google &amp; Meta Ads, Play Console, Meta Business Suite</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Education Section -->
+        <section id="education">
+            <h2 class="section-title">Education</h2>
+            <div class="cyber-card cyber-border">
+                <div class="timeline-item">
+                    <div class="timeline-title">B.Tech Computer Science &amp; Engineering</div>
+                    <div class="timeline-company">
+                        <i class="fas fa-university"></i>
+                        <span>Parul University, Vadodara</span>
+                    </div>
+                    <div class="timeline-description">
+                        <span class="timeline-highlight">2015-2019 | 7.68 CGPA</span>
+                        <span class="timeline-highlight">Specialized in software development, data structures &amp; analytics</span>
+                        <span class="timeline-highlight">Coursework included AI fundamentals and web technologies</span>
+                        <span class="timeline-highlight">Final year project on cyber security reserach paper published on PICET Journal</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Certifications Section -->
+        <section id="certifications">
+            <h2 class="section-title">Certifications</h2>
+            <div class="skills-grid" style="grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));">
+                <div class="cyber-card cyber-border">
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            <i class="fas fa-certificate"></i>
+                            <span>AI in Digital Marketing</span>
+                        </div>
+                        <p>Coursera</p>
+                        
+                    </div>
+                </div>
+                
+                <div class="cyber-card cyber-border">
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            <i class="fas fa-certificate"></i>
+                            <span>Google Data Analytics</span>
+                        </div>
+                        <p>Coursera</p>
+                    </div>
+                </div>
+                
+                <div class="cyber-card cyber-border">
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            <i class="fas fa-certificate"></i>
+                            <span>SEO Certification</span>
+                        </div>
+                        <p>HubSpot Academy</p> 
+                    </div>
+                </div>
+                
+                <div class="cyber-card cyber-border">
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            <i class="fas fa-certificate"></i>
+                            <span>Google Digital Marketing</span>
+                        </div>
+                        <p>Google Digital Garage</p>
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <footer>
+        <div class="container">
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/chirag-dhanesha-956b52118"><i class="fab fa-linkedin-in"></i></a>
+                <a href="https://www.quora.com/profile/Chirag-Dhanesha-2"><i class="fab fa-quora"></i></a>
+                <a href="https://play.google.com/store/apps/developer?id=Chirag+Dhanesha+Raghuvanshi&amp;hl=en_IN"><i class="fab fa-google"></i></a>
+                <a href="https://www.jetir.org/view?paper=JETIRCQ06005"><i class="fab fa-medium-m"></i></a>
+            </div>
+            <p class="copyright">© 2025 CHIRAG DHANESHA</p>
+        </div>
+    </footer>
+    
+    <script>
+        // Matrix Rain Effect
+        const matrixRain = document.getElementById('matrixRain');
+        const canvas = document.createElement('canvas');
+        matrixRain.appendChild(canvas);
+        
+        canvas.style.display = 'block';
+        canvas.width = matrixRain.clientWidth;
+        canvas.height = matrixRain.clientHeight;
+        
+        const ctx = canvas.getContext('2d');
+        const katakana = 'アァカサタナハマヤャラワガザダバパイィキシチニヒミリヰギジヂビピウゥクスツヌフムユュルグズブヅプエェケセテネヘメレヱゲゼデベペオォコソトノホモヨョロヲゴゾドボポヴッン';
+        const latin = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
+        const nums = '0123456789';
+        const alphabet = katakana + latin + nums;
+        
+        const fontSize = 16;
+        const columns = canvas.width / fontSize;
+        
+        const rainDrops = [];
+        for (let x = 0; x < columns; x++) {
+            rainDrops[x] = 1;
+        }
+        
+        const draw = () => {
+            ctx.fillStyle = 'rgba(10, 10, 20, 0.05)';
+            ctx.fillRect(0, 0, canvas.width, canvas.height);
+            
+            ctx.fillStyle = '#00f0ff';
+            ctx.font = fontSize + 'px monospace';
+            
+            for (let i = 0; i < rainDrops.length; i++) {
+                const text = alphabet.charAt(Math.floor(Math.random() * alphabet.length));
+                ctx.fillText(text, i * fontSize, rainDrops[i] * fontSize);
+                
+                if (rainDrops[i] * fontSize > canvas.height && Math.random() > 0.975) {
+                    rainDrops[i] = 0;
+                }
+                rainDrops[i]++;
+            }
+        };
+        
+        setInterval(draw, 30);
+        
+        // Responsive canvas
+        window.addEventListener('resize', () => {
+            canvas.width = matrixRain.clientWidth;
+            canvas.height = matrixRain.clientHeight;
+        });
+    </script>
+
+</body></html>
